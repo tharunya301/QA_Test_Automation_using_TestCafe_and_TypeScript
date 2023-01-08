@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "testcafe": "^2.2.0",
+    "testcafe-live": "^0.1.4"
+  },
+  "name": "camms_qa_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "scripts": {
+    "test": "testcafe chrome Typescript-demo/ts-demo.ts"
+  },
+  "author": "tharunya ",
+  "license": "ISC",
+  "description": ""
+}
