@@ -14,7 +14,7 @@ test('Login form automate', async t => {
     .click(Selector('#login-button'))
 
     //Check the price of product, Sauce Labs Fleece Jacket is $49.99 
-    .expect(Selector('#item_5_title_link').withText('Sauce Labs Backpack').exists).ok()
+    .expect(Selector('#item_5_title_link').withText('Sauce Labs Fleece Jacket').exists).ok()
     .expect(Selector('.inventory_item_price').withText('$49.99').exists).ok()
 
     //Add two products into the cart
